@@ -114,7 +114,7 @@ python -m mkdocs serve
 **构建命令结果：** 
 
 
-![MkDocs 本地构建或预览](report\images\03.png)
+![MkDocs 本地构建或预览](images/03.png)
 
 ### 2.4 GitHub Pages 设置
 
@@ -128,7 +128,7 @@ python -m mkdocs serve
 **配置原因：** 本实验使用 GitHub 官方的 Pages Actions 部署方式，由工作流构建 `site/` 并上传部署产物。
 
 
-![GitHub Pages 发布来源设置](report\images\05-github-actions.png)
+![GitHub Pages 发布来源设置](images/05-github-actions.png)
 
 ### 2.5 GitHub Actions 首次构建和部署
 
@@ -154,7 +154,7 @@ python -m mkdocs serve
 
 这次成功运行说明工作流能够完成网站构建和 Pages 部署，而不需要手工上传构建后的网页文件。
 
-![首次 Actions 构建与部署成功](report\images\06-首次部署和构建成功.png)
+![首次 Actions 构建与部署成功](images/06-首次部署和构建成功.png)
 
 ### 2.6 网站访问与四页导航检查
 
@@ -172,13 +172,13 @@ python -m mkdocs serve
 | API 参考 | `docs/api.md` | API 示例和代码格式 | 正常 |
 
 
-![GitHub Pages 公开网站首页](report\images\04-我的主页.png)
+![GitHub Pages 公开网站首页](images/04-我的主页.png)
 
-![关于页面](report\images\04-关于.png)
+![关于页面](images/04-关于.png)
 
-![使用指南页面](report\images\04-使用指南.png)
+![使用指南页面](images/04-使用指南.png)
 
-![API页面](report\images\04-API.png)
+![API页面](images/04-API.png)
 
 ### 2.7 第二次推送与自动更新验证
 
@@ -196,9 +196,9 @@ python -m mkdocs serve
 GitHub 的提交记录能确认首页源文件中新增了这句话，Actions 记录能确认第二次推送触发的构建与部署已成功。最后还需本人打开公开网站刷新，确认该文字已经出现在网页上，才能完整证明从源文件修改到公开网站更新的全过程。
 
 
-![第二次自动部署成功](report\images\07-自动更新.png)
+![第二次自动部署成功](images/07-自动更新.png)
 
-![公开网站新增文字](report\images\第二次部署首页.png)
+![公开网站新增文字](images/第二次部署首页.png)
 
 ---
 
